@@ -1,0 +1,21 @@
+h2 {
+    color: gold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    /* background-image: url(images/bg_image.avif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; */
+    background: url(images/bg_image.avif) no-repeat fixed;
+}
+
+table, th, td{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+td:hover{
+    background-color: aqua;
+}

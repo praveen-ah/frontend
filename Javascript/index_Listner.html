@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <title>
+        Event Listner
+    </title>
+</head>
+
+<body>
+    <button id="bt"> My Button </button>
+    <br><br><br>
+    <button id="bt2"> 1 </button>
+</body>
+<script>
+    let btn = document.getElementById("bt");
+
+    btn.addEventListener('click', (event) => {
+        btn.textContent = "Button Clicked";
+        console.log("Clicked");
+    })
+
+    btn.addEventListener('mouseover', (event) => {
+        btn.textContent = 'Hovering';
+        console.log('hover');
+    })
+
+    btn.addEventListener('mouseout', (event) => {
+        btn.textContent = 'My Button';
+        console.log('mouse out');
+    })
+
+    let btn2 = document.getElementById('bt2');
+    btn2.addEventListener('click', (event) => {
+        console.log(btn2.style.backgroundColor = 'red');
+    })
+
+    document.addEventListener('keydown', (event) => {
+        console.log(event.key);
+        switch (event.key) {
+            case 'ArrowUp':
+                btn2.textContent = Number(btn2.textContent) + 1;
+                break;
+            case 'ArrowDown':
+                btn2.textContent = Number(btn2.textContent) - 1;
+                break;
+        }
+    })
+
+
+
+
+</script>
+
+</html>

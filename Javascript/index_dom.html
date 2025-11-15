@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <title> DOM </title>
+</head>
+
+<body>
+    <h1 id = 'head'> About DOM</h1>
+    <div id = "box">
+    </div>
+    <div id = "box2">
+    </div>
+    <h2 id = 'h2head' class = 'headerh2'> Hello to H2 </h2>
+</body>
+<script>
+    console.log(document);
+    console.log(document.title);
+
+    let element = document.getElementById('head');
+    console.log(element);
+    console.log(element.textContent);
+    element.textContent += ' YouTube Channel';
+    console.log(element.textContent);
+
+    let elementDiv = document.getElementById('box');
+    elementDiv.textContent += 'Inside Div Tag';
+    console.log(elementDiv.textContent);
+
+    let elementDiv2 = document.getElementById('box2');
+    elementDiv2.innerHTML = '<p> Hello setting P Tag </p>';
+    elementDiv2.className = 'bodyClass';
+    elementDiv2.style.color = 'red';
+    elementDiv2.style.backgroundColor = 'yellow';
+    console.log(elementDiv2.textContent);
+
+    let tagElement = document.getElementsByTagName('h2');
+    console.log(tagElement);
+    console.log(tagElement[0].innerHTML);
+
+    let classElement = document.getElementsByClassName('headerH2');
+    console.log(classElement);
+    console.log(classElement[0]);
+
+    let element2 = document.querySelector('h1');
+    console.log(element2);
+
+    let para = document.createElement('p');
+    para.textContent = "Dynamically created para tag";
+    para.id = 'pid';
+    elementDiv.append(para);
+    // elementDiv2.prepend(para);
+    console.log(para);
+</script>
+
+</html>

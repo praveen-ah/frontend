@@ -1,0 +1,153 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "user": {
+        "id": "101",
+        "username": "tony_stark",
+        "profile_pic": "src/assets/profile_1.jpg"
+      },
+      "image": "src/assets/post_1.jpg",
+      "caption": "Bali, Indonesia",
+      "likes": 1245,
+      "comments": [
+        {
+          "user": "wander_lust",
+          "comment": "Wow, this view is amazing 😍"
+        },
+        {
+          "user": "nature_lover",
+          "comment": "Bali is always beautiful!"
+        },
+        {
+          "user": "photo_addict",
+          "comment": "Perfect shot 👌"
+        }
+      ],
+      "timestamp": "2025-11-21T18:30:00Z"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": "102",
+        "username": "steve_rogers",
+        "profile_pic": "src/assets/profile_2.jpg"
+      },
+      "image": "src/assets/post_2.jpg",
+      "caption": "Rome, Italy",
+      "likes": 2098,
+      "comments": [
+        {
+          "user": "pasta_queen",
+          "comment": "That looks delicious 🤤"
+        },
+        {
+          "user": "chef_mode",
+          "comment": "Authentic Italian vibes!"
+        }
+      ],
+      "timestamp": "2025-11-22T13:10:00Z"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": "103",
+        "username": "thor_odinson",
+        "profile_pic": "src/assets/profile_3.jpg"
+      },
+      "image": "src/assets/post_3.jpg",
+      "caption": "Chennai, India",
+      "likes": 1750,
+      "comments": [
+        {
+          "user": "gym_buddy",
+          "comment": "Motivation 🔥"
+        },
+        {
+          "user": "fit_life",
+          "comment": "Keep pushing 💪"
+        }
+      ],
+      "timestamp": "2025-11-23T06:45:00Z"
+    }
+  ],
+  "profile": {
+    "id": "101",
+    "username": "tony_stark",
+    "profile_pic": "src/assets/profile_1.jpg"
+  },
+  "suggestions": [
+    {
+      "id": "101",
+      "username": "tony_stark",
+      "profile_pic": "src/assets/profile_1.jpg"
+    },
+    {
+      "id": "102",
+      "username": "steve_rogers",
+      "profile_pic": "src/assets/profile_2.jpg"
+    },
+    {
+      "id": "103",
+      "username": "rogers",
+      "profile_pic": "src/assets/profile_2.jpg"
+    },
+    {
+      "id": "104",
+      "username": "thor_odinson",
+      "profile_pic": "src/assets/profile_3.jpg"
+    },
+    {
+      "id": "105",
+      "username": "odinson",
+      "profile_pic": "src/assets/profile_3.jpg"
+    }
+  ],
+  "story": [
+    {
+      "id": "1",
+      "user": {
+        "id": "101",
+        "username": "tony_stark",
+        "profile_pic": "src/assets/profile_1.jpg"
+      },
+      "image": "src/assets/story_1.jpg"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": "102",
+        "username": "steve_rogers",
+        "profile_pic": "src/assets/profile_2.jpg"
+      },
+      "image": "src/assets/story_2.jpg"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": "103",
+        "username": "thor_odinson",
+        "profile_pic": "src/assets/profile_3.jpg"
+      },
+      "image": "src/assets/story_3.jpg"
+    }
+  ],
+  "followers": [
+    {
+      "id": "101",
+      "username": "tony_stark"
+    },
+    {
+      "id": "102",
+      "username": "steve_rogers"
+    },
+    {
+      "id": "103",
+      "username": "rogers"
+    },
+    {
+      "id": "104",
+      "username": "thor_odinson"
+    }
+  ]
+}

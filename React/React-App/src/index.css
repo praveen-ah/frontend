@@ -1,4 +1,15 @@
-/*.card {
-  background-color: aquamarine;
+.card {
+  background-color: palegoldenrod;
+  font-family: sans-serif;
+  max-width: 200px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 2px;
+  text-align: center;
+  display: inline-block;
+}
 
-}*/
+.card img {
+  width: 200px;
+}

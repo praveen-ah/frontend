@@ -1,17 +1,15 @@
 import './App.css'
 import Navbar from './Navbar';
-import Course from './Course';
 import Footer from './Footer';
+import CourseList from './CourseList';
 
 
 function App() {
   return (
     <>
-    <Navbar/>
-    <Course></Course>
-    <Footer></Footer>
+    <CourseList/>
     </>
   );
-}
+} 
 
 export default App

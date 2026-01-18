@@ -1,0 +1,46 @@
+{
+    "posts": [
+        {
+            "id": 101,
+            "title": "My First Post",
+            "content": "Hello, this is my first post!",
+            "created_at": "2025-11-21"
+        },
+        {
+            "id": 102,
+            "title": "My Second Post",
+            "content": "This is my second post content.",
+            "created_at": "2025-11-22"
+        },
+        {
+            "id": 103,
+            "title": "Another Update",
+            "content": "Sharing another update with everyone.",
+            "created_at": "2025-11-23"
+        },
+        {
+            "id": 104,
+            "title": "Daily Thoughts",
+            "content": "Here are my thoughts for today.",
+            "created_at": "2025-11-24"
+        },
+        {
+            "id": 105,
+            "title": "Learning JSON",
+            "content": "JSON is simple and easy to understand.",
+            "created_at": "2025-11-25"
+        },
+        {
+            "id": 106,
+            "title": "Tech Notes",
+            "content": "Writing some quick tech notes here.",
+            "created_at": "2025-11-26"
+        },
+        {
+            "id": 107,
+            "title": "Final Post",
+            "content": "This is the final post in this list.",
+            "created_at": "2025-11-27"
+        }
+    ]
+}
